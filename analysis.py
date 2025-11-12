@@ -1,7 +1,6 @@
+import matplotlib.pyplot as plt
 import numpy as np
 import soundfile as sf
-import matplotlib.pyplot as plt
-from scipy.fft import fft, fftfreq
 
 # --- FILES (already generated) ---
 original_file = "recorded/dataset1_base_signal_recorded.wav"
